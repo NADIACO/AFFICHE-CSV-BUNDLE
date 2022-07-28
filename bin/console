@@ -1,0 +1,10 @@
+<?php
+#!/usr/bin/env php 
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use NadiaAhoure\Bundle\AfficheCsvBundle\Command\CsvCommand;
+
+$app = new Application();
+$app->add(new CsvCommand());
+$app->run();

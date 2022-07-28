@@ -1,0 +1,24 @@
+{
+    "name": "nadia-ahoure/affiche-csv-bundle",
+    "description": "permet d'afficher le contenu d'un fichier csv.",
+    "autoload": {
+        "psr-4": {
+            "NadiaAhoure\\Bundle\\AfficheCsvBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nadia Ahoure",
+            "email": "nahuore@yahoo.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/console": "5.4.x-dev",
+        "symfony/serializer": "5.4.x-dev",
+        "symfony/property-access": "5.4.x-dev"
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "3.x-dev"
+    }
+}
