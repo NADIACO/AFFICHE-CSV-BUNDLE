@@ -35,10 +35,7 @@ class ComposerStaticIniteacd434381bbbc6e3738988c0f241aa5
             'Symfony\\Component\\VarExporter\\' => 30,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\String\\' => 25,
-            'Symfony\\Component\\Serializer\\' => 29,
             'Symfony\\Component\\Routing\\' => 26,
-            'Symfony\\Component\\PropertyInfo\\' => 31,
-            'Symfony\\Component\\PropertyAccess\\' => 33,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\Finder\\' => 25,
@@ -123,21 +120,9 @@ class ComposerStaticIniteacd434381bbbc6e3738988c0f241aa5
         array (
             0 => __DIR__ . '/..' . '/symfony/string',
         ),
-        'Symfony\\Component\\Serializer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/serializer',
-        ),
         'Symfony\\Component\\Routing\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/routing',
-        ),
-        'Symfony\\Component\\PropertyInfo\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/property-info',
-        ),
-        'Symfony\\Component\\PropertyAccess\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/property-access',
         ),
         'Symfony\\Component\\HttpKernel\\' => 
         array (
