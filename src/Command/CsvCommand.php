@@ -18,14 +18,10 @@ use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 
 class CsvCommand extends Command
 {
-    //private string $fichier;
+
     protected static $defaultName = 'app:csvcommand';
     protected static $defaultDescription = 'Affiche une grille d\'information à partir de données de type fichier cvs';
-    /*public function __construct($fichier)
-    {
-        $this->fichier = $fichier;
-        parent::__construct();
-    }*/
+
 
     protected function configure(): void
     {
