@@ -1,20 +1,23 @@
 {
     "name": "nadia-ahoure/affiche-csv-bundle",
-    "description": "permet d'afficher le contenu d'un fichier csv.",
+    "description": "affiche le contenu d'un csv",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "NadiaAhoure\\Bundle\\AfficheCsvBundle\\": "src/"
         }
     },
-    "license": "proprietary",
     "authors": [
         {
             "name": "Nadia Ahoure",
             "email": "nahuore@yahoo.fr"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.2"
+        "symfony/console": "4.4.*",
+        "symfony/serializer": "4.4.*",
+        "symfony/property-access": "4.4.*"
     }
 }
